@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(128, 182, 229);
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+.display1{
+    text-align: right;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+button{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+button:hover{
+    background-color: blueviolet;
+}
